@@ -1,0 +1,255 @@
+header{
+    display: flex;
+    background-color:transparent;
+    height:100px;
+    margin-left:45px;
+}
+header img{
+    background-color: rgb(20, 19, 17);
+    border-radius: 50px;
+   
+}
+nav ul li {
+    display: inline-block;
+    padding:1px;
+}
+nav ul li a {
+    margin:20px;
+    padding: 5px;
+   color: rgb(28, 37, 43);
+   text-decoration: none;
+   font-size: large;
+   border-style: groove;
+   border-radius: 20px;
+   border-color: white;
+   background-color:transparent;
+}
+
+body{
+    
+  overflow-x: hidden;
+   position:static;
+    background-image: url("bmww.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.grid{
+    display: grid;
+    display: flex;
+    
+}
+#about{
+    text-align: center;
+}
+.m img{
+    margin-bottom: 40px;
+    border-radius: 40px;
+    height: 300px;
+}
+
+#menu{
+    text-align: center;
+}
+/* .grid1{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 125px;
+} */
+
+.item3{
+    height:100px;
+    padding: 30px;
+}
+.item2{
+    padding: 30px;
+}
+.item1{
+    padding: 30px;
+}
+.item4{
+    padding: 30px;
+}
+.item5{
+    padding: 30px;
+}
+.item6{
+    padding: 30px;
+}
+
+
+.grid2{
+    display:flex;
+    flex-wrap: nowrap;
+  
+    margin-left: 80px;
+}
+a{
+    color: aliceblue;
+background-color:violet;
+height: 150px;
+padding: 10px;
+border-radius: 20px;
+}
+#prod3{
+    height:250px;
+    width:250px;
+}
+#products{
+    text-align: center;
+}
+.prod1{
+    padding:30px;
+}
+
+.prod2{
+    padding:30px;
+}
+.prod3{
+    padding:30px;
+}
+
+
+#move{
+    width: 600%;
+    height:700px;
+    overflow:auto ;
+    white-space: nowrap;
+    gap: 20px;
+}
+#move .slide{
+    display: inline;  
+    gap: 20px;
+    
+}
+.row{
+    display:flex;
+}
+.inputbox{
+    color:#0b0f0f;
+    height:80px;
+    width:80px;
+    margin:50px;
+    border-radius: 20px;
+
+}
+
+ form div {
+    border:2px solid blue;
+    border: #97a6a6;
+    border-width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+#contact h2{
+    text-align: center;
+}
+ form{
+    border:2px solid blue;
+    height: 30%;
+    width: 30%;
+    border-radius: 30px;
+    background-color:transparent;
+    margin-left: 80px;
+ }
+/* .grid3{
+    display: grid;
+    display: flex;
+} */
+
+  /* #reviews div{
+    margin-left: 40px;
+ background-color:aqua; 
+height:280px;
+width:200px;
+ }  */
+ #reviews p{
+    color:white;
+ }
+#reviews h2{
+    text-align: center;
+}
+
+.para{
+    font-family:sans-serif;
+    font-size: large;
+    padding: 10px;
+
+}
+#border
+{
+    border: 3px solid rgb(121, 88, 88);
+    border-style: groove;
+    height: 200px;
+    width: 750px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    background-color:white;
+}
+
+#home
+{
+    text-align: center;
+}
+.container
+{
+    position: relative;
+    text-align: center;
+    color: rgb(21, 0, 255);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+.container img{
+    border-radius: 30px;
+    height: 500px;
+}
+.centered
+{
+    position: absolute;
+    top:30%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .fade-in-image { animation: fadeIn 5s; }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .video
+  {
+    text-align: center;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
